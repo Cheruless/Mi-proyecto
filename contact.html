@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Constanza's Studio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="style.css">
+  <title>Constanza's Studio</title>
 </head>
+
 <body>
-    
-    <header id="top">
+
+  <!-- <header id="top">
         <a class="link" href="./index.html">
-            <img class="logo" src="./media/icon.png" alt="Background de sitio"> 
+            <img class="logo" src="./media/icon.png" alt="Background de sitio">
         </a>
         <a class="link" href="./index.html">
             <h1 class="titulo">Constanza's Studio</h1>
@@ -22,85 +29,116 @@
             <a class="link" href="./portfolio.html">Portfolio</a>
             <a class="link" href="./contact.html">Contacto</a>
         </nav>
-    </header>
+    </header> -->
 
+  <nav class="navbar navbar-expand-md navbar-dark bg-color">
+    <a class="navbar-brand" href="#">
+      <img src="./media/icon.png" width="30" height="30" alt="">
+    </a>
+    <a class="navbar-brand" href="index.html">Constanza's Studio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Sobre Mi</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="services.html">Servicios<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <main>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <ul>
-                <li>
-                    <a href="">email@dominio.cl</a>
-                </li>
-                <li>
-                    <a href="">+56 9 12345678</a>
-                </li>
-                <li>
-                    <a href="">Direccion Studio 123, Providencia Santiago, Chile</a>
-                </li>
-            </ul>
-        </section>
+  <main>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <ul>
+        <li>
+          <a href="">email@dominio.cl</a>
+        </li>
+        <li>
+          <a href="">+56 9 12345678</a>
+        </li>
+        <li>
+          <a href="">Direccion Studio 123, Providencia Santiago, Chile</a>
+        </li>
+      </ul>
+    </section>
+    <br>
+    <section id="social">
+      <h2>Social Media</h2>
+      <ul>
+        <li>
+          <a href="">Instagram: @userIG</a>
+        </li>
+        <li>
+          <a href="">Facebook: username</a>
+        </li>
+        <li>
+          <a href="">Linkedin: linkuser</a>
+        </li>
+        <li>
+          <a href="">Twitter: @userTwitter</a>
+        </li>
+      </ul>
+    </section>
+    <br>
+
+    <section id="suscripcion">
+      <h2>¡Suscribete a nuestro boletín!</h2>
+      <div id="datos">
+        <label for="nombre">Nombre:</label>
+        <input class="dato" type="text" name="nombre" placeholder="Ingrese nombre">
         <br>
-        <section id="social">
-            <h2>Social Media</h2>
-            <ul>
-                <li>
-                    <a href="">Instagram: @userIG</a>
-                </li>
-                <li>
-                    <a href="">Facebook: username</a>
-                </li>
-                <li>
-                    <a href="">Linkedin: linkuser</a>
-                </li>
-                <li>
-                    <a href="">Twitter: @userTwitter</a>
-                </li>
-            </ul>
-        </section>
+        <label for="telefono">Teléfono:</label>
+        <input class="dato" type="tel" name="telefono" placeholder="Ingrese teléfono">
         <br>
-
-        <section id="suscripcion">
-            <h2>¡Suscribete a nuestro boletín!</h2>
-            <div id="datos">
-                <label for="nombre">Nombre:</label>
-                <input class="dato" type="text" name="nombre" placeholder="Ingrese nombre">
-                <br>
-                <label for="telefono">Teléfono:</label>
-                <input class="dato" type="tel" name="telefono" placeholder="Ingrese teléfono">
-                <br>
-                <label for="correo">E-mail:</label>
-                <input class="dato" type="email" name="correo" placeholder="Ingrese e-mail" >
-                <br>
-                <label for="comentario">¿Algún comentario? ¡Compártelo con nosotros!</label>
-                <br>
-                <textarea class="dato" name="comentario" placeholder="Ingrese su consulta, comentario o solicitud" cols="50" rows="10"></textarea>
-                <br>
-                <button class="boton" type="submit" >ENVIAR</button>
-            </div>
-        </section>
-
-        <section id="ubicacion">
-            <h2>Studio</h2>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26638.962643176437!2d-70.62989230841747!3d-33.426624840408046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7c6e8366f7%3A0x87effcc00a478d7c!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1685132011590!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    </main>
-
-    <footer id="bottom">
-        <nav class="links">
-            <a class="link" href="./index.html">Inicio</a>
-            <a class="link" href="./services.html">Servicios</a>
-            <a class="link" href="./portfolio.html">Portfolio</a>
-            <a class="link" href="./contact.html">Contacto</a>
-            <a class="link" href="./about.html">Sobre Mi</a>
-            <a class="link" href="./politics.html">Politicas de privacidad</a>
-        </nav>
-        <a class="link" href="./index.html">
-            <img class="logo" src="./media/iconAccent.png" alt="icono de sitio accent">
-        </a>
+        <label for="correo">E-mail:</label>
+        <input class="dato" type="email" name="correo" placeholder="Ingrese e-mail">
         <br>
-    </footer>
+        <label for="comentario">¿Algún comentario? ¡Compártelo con nosotros!</label>
+        <br>
+        <textarea class="dato" name="comentario" placeholder="Ingrese su consulta, comentario o solicitud" cols="50"
+          rows="10"></textarea>
+        <br>
+        <button class="boton" type="submit">ENVIAR</button>
+      </div>
+    </section>
+
+    <section id="ubicacion">
+      <h2>Studio</h2>
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26638.962643176437!2d-70.62989230841747!3d-33.426624840408046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7c6e8366f7%3A0x87effcc00a478d7c!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1685132011590!5m2!1ses!2scl"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+
+  <footer id="bottom">
+    <nav class="links">
+      <a class="link" href="./index.html">Inicio</a>
+      <a class="link" href="./services.html">Servicios</a>
+      <a class="link" href="./portfolio.html">Portfolio</a>
+      <a class="link" href="./contact.html">Contacto</a>
+      <a class="link" href="./about.html">Sobre Mi</a>
+      <a class="link" href="./politics.html">Politicas de privacidad</a>
+    </nav>
+    <a class="link" href="./index.html">
+      <img class="logo" src="./media/iconAccent.png" alt="icono de sitio accent">
+    </a>
+    <br>
+  </footer>
 
 
 </body>
+
 </html>
