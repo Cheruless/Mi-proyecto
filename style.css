@@ -94,8 +94,11 @@ main{
 /* SECCION SERVICIOS */
 /* ------------------------------------------------------------------- */
 
+h2{
+    text-align: center;
+}
+
 #servicios{
-    /* background-color: #0F0B0E; */
     display: flex;
     justify-content: space-between;
     text-align: center;
