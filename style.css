@@ -13,12 +13,14 @@ body{
 /* SECCION HEADER */
 /* ------------------------------------------------------------------- */
 
-#top{
-    padding: 1rem;
+.bg-color{
     background-color: #0F0B0E;
-    display: flex;
-    justify-content: space-between;
 }
+
+.navbar-brand{
+    color: #FFBB00 !important;
+}
+
 
 #top .logo{
     width: 5rem;
@@ -93,6 +95,7 @@ main{
 /* ------------------------------------------------------------------- */
 
 #servicios{
+    /* background-color: #0F0B0E; */
     display: flex;
     justify-content: space-between;
     text-align: center;
