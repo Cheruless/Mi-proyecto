@@ -70,6 +70,10 @@ main{
 /* SECCION SOBRE MI*/
 /* ------------------------------------------------------------------- */
 
+.border-color{
+    color: #FFBB00;
+}
+
 #sobreMi{
     padding: 1rem;
 }
