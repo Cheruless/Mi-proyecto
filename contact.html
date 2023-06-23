@@ -58,69 +58,91 @@
     </div>
   </nav>
 
+
   <main>
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <ul>
-        <li>
-          <a href="">email@dominio.cl</a>
-        </li>
-        <li>
-          <a href="">+56 9 12345678</a>
-        </li>
-        <li>
-          <a href="">Direccion Studio 123, Providencia Santiago, Chile</a>
-        </li>
-      </ul>
-    </section>
-    <br>
-    <section id="social">
-      <h2>Social Media</h2>
-      <ul>
-        <li>
-          <a href="">Instagram: @userIG</a>
-        </li>
-        <li>
-          <a href="">Facebook: username</a>
-        </li>
-        <li>
-          <a href="">Linkedin: linkuser</a>
-        </li>
-        <li>
-          <a href="">Twitter: @userTwitter</a>
-        </li>
-      </ul>
-    </section>
-    <br>
 
-    <section id="suscripcion">
-      <h2>¡Suscribete a nuestro boletín!</h2>
-      <div id="datos">
-        <label for="nombre">Nombre:</label>
-        <input class="dato" type="text" name="nombre" placeholder="Ingrese nombre">
-        <br>
-        <label for="telefono">Teléfono:</label>
-        <input class="dato" type="tel" name="telefono" placeholder="Ingrese teléfono">
-        <br>
-        <label for="correo">E-mail:</label>
-        <input class="dato" type="email" name="correo" placeholder="Ingrese e-mail">
-        <br>
-        <label for="comentario">¿Algún comentario? ¡Compártelo con nosotros!</label>
-        <br>
-        <textarea class="dato" name="comentario" placeholder="Ingrese su consulta, comentario o solicitud" cols="50"
-          rows="10"></textarea>
-        <br>
-        <button class="boton" type="submit">ENVIAR</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h2>Contacto</h2>
+          <ul>
+            <li>
+              <a href="">email@dominio.cl</a>
+            </li>
+            <li>
+              <a href="">+56 9 12345678</a>
+            </li>
+            <li>
+              <a href="">Direccion Studio 123, Providencia Santiago, Chile</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h2>Social Media</h2>
+          <ul>
+            <li>
+              <a href="#">Instagram: @userIG</a>
+            </li>
+            <li>
+              <a href="#">Facebook: username</a>
+            </li>
+            <li>
+              <a href="#">Linkedin: linkuser</a>
+            </li>
+            <li>
+              <a href="#">Twitter: @userTwitter</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </section>
+    </div>
 
-    <section id="ubicacion">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- BOLETIN -->
+          <h2>¡Suscribete a nuestro boletín!</h2>
+          <form>
+            <div class="form-row">
+              <div class="col-md">
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" type="text" class="form-control dato" placeholder="Ingrese nombre">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="email">E-mail:</label>
+                <input name="email" type="email" class="form-control dato" placeholder="Ingrese e-mail">
+              </div>
+              <div class="col-md">
+                <label for="apellido">Teléfono:</label>
+                <input name="apellido" type="tel" class="form-control dato" placeholder="Ingrese teléfono">
+              </div>
+            </div>
+            <label for="comentario">¿Algún comentario? ¡Compártelo con nosotros!</label>
+            <textarea class="form-control dato" id="comentario"
+              placeholder="Ingrese su consulta, comentario o solicitud" rows="3"></textarea>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Acepto recibir cosas en mi correo
+                </label>
+              </div>
+              <button class="btn-primary btn" type="submit">Enviar</button>
+          </form>
+        </div>
+        <!-- FIN BOLETIN -->
+      </div>
+    </div>
+
+    <div class="col">
       <h2>Studio</h2>
-      <iframe class="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26638.962643176437!2d-70.62989230841747!3d-33.426624840408046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7c6e8366f7%3A0x87effcc00a478d7c!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1685132011590!5m2!1ses!2scl"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+      <div class="embed-responsive embed-responsive-16by9 ">
+        <iframe class="embed-responsive-item map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26638.973632541885!2d-70.62984937970035!3d-33.426589030408955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7c6e8366f7%3A0x87effcc00a478d7c!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1687496915886!5m2!1ses!2scl"></iframe>
+      </div>
+    </div>
   </main>
 
   <footer id="bottom">

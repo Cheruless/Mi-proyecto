@@ -152,21 +152,15 @@ main #suscripcion #datos{
     padding-left: 1rem;
 }
 
-main #suscripcion #datos .dato{
-    background-color: #181116;
-    color: #FFBB00;
+.dato{
+    background-color: #181116 !important;
+    color: #FFBB00 !important;
 }
 
-main #suscripcion #datos .boton{
-    background-color: #FFBB00;
-    color: #181116;
-}
-
-main #ubicacion{
-    top: 38%;
-    right: 10%;
-    padding-top: 1rem;
-    position: absolute;
+.btn{
+    border: none;
+    background-color: #FFBB00 !important;
+    color: #181116 !important;
 }
 
 /* ------------------------------------------------------------------- */
