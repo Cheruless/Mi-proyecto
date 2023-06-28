@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
     color: #FBEDE0;
 }
 
 body{
     background-color: #181116;
 }
-
-/* ------------------------------------------------------------------- */
-/* SECCION HEADER */
-/* ------------------------------------------------------------------- */
 
 .bg-color{
     background-color: #0F0B0E;
@@ -21,39 +16,9 @@ body{
     color: #FFBB00 !important;
 }
 
-
-#top .logo{
-    width: 5rem;
+h2{
+    text-align: center;
 }
-
-#top .links{
-    display: flex;
-    align-items: center;
-}
-
-#top .links .link{
-    margin:2px;
-    text-decoration: none;
-    border: solid 1px #FFBB00 ;
-    border-top: 0px;
-    border-bottom: 0px;
-}
-
-#top .link{
-    /* text-align: center; */
-    text-decoration: none;
-    display: flex;
-    align-items: flex-end;
-}
-
-#top .link .titulo{
-    
-    color: #FFBB00;
-}
-
-/* ------------------------------------------------------------------- */
-/* SECCION MAIN */
-/* ------------------------------------------------------------------- */
 
 main{
     margin: 2rem;
@@ -62,95 +27,28 @@ main{
     /* display: inline-block;   REVISARLO */
 }
 
-.imagenFondo{
-    width: 100%;
+.shade{
+    background-color: rgba(0, 0, 0, 0.095);
 }
 
-/* ------------------------------------------------------------------- */
-/* SECCION SOBRE MI*/
-/* ------------------------------------------------------------------- */
-
-.border-color{
-    color: #FFBB00;
+.colorTattoo{
+    font-weight: bolder;
+    color: crimson;
 }
 
-#sobreMi{
-    padding: 1rem;
+.colorIllus{
+    font-weight: bolder;
+    color: coral;
 }
 
-#sobreMi .texto{
-    display: flex;
-    justify-content: space-between;
-}
-
-.desc{
-
-    padding: 1rem;
-
-}
-
-.imagen{
-    padding-left: 1rem; 
-    width: 420px;
-}
-
-/* ------------------------------------------------------------------- */
-/* SECCION SERVICIOS */
-/* ------------------------------------------------------------------- */
-
-h2{
-    text-align: center;
-}
-
-#servicios{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-#servicios .servicio{
-    padding: 1rem;
-}
-
-#servicios .servicio .iconoServicio{
-    width: 128px;
-}
-
-#servicios .servicio .texto{
-    width: 17rem;
-}
-
-/* ------------------------------------------------------------------- */
-/* SECCION PORTFOLIO */
-/* ------------------------------------------------------------------- */
-
-main #portfolios .trabajo {
-    text-align: center;
-    margin: 1rem 25%;
-}
-
-main #portfolios .trabajo .link{
-    text-decoration: none;
-}
-
-
-main #portfolios .trabajo .link .portada{
-    width: 320px;
-    padding: 1rem;
-}
-
-main #portfolios .trabajo .texto{
-    text-align: center;
-
+.colorDesign{
+    font-weight: bolder;
+    color: lightcyan;
 }
 
 /* ------------------------------------------------------------------- */
 /* SECCION CONTACTO */
 /* ------------------------------------------------------------------- */
-
-main #suscripcion #datos{
-    padding-left: 1rem;
-}
 
 .dato{
     background-color: #181116 !important;
@@ -167,35 +65,12 @@ main #suscripcion #datos{
 /* SECCION POLITICS */
 /* ------------------------------------------------------------------- */
 
-main #politics{
+.politics{
     padding: 0 5rem;
 }
 
-main #politics .leyes{
+.leyes{
     background-color: rgba(255, 255, 255, 0.25);
     margin: 1rem 0rem;
     padding: 1rem 5rem;
-}
-
-/* ------------------------------------------------------------------- */
-/* SECCION FOOTER */
-/* ------------------------------------------------------------------- */
-
-body #bottom{
-    padding: 1rem;
-    background-color: #1C1320;
-    text-align: center;
-}
-
-
-.link{
-    /* padding: 1rem; */
-    border-top: solid 1px#7EEDDE;
-    border-bottom: solid 1px #7EEDDE;
-    /* text-decoration: none; */
-}
-
-body #bottom .logo{
-    padding: 4rem;
-    width: 128px;
 }
