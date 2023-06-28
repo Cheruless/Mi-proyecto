@@ -21,10 +21,9 @@ h2{
 }
 
 main{
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
     background-color: rgba(17, 10, 4, 0.25);
-    /* display: inline-block;   REVISARLO */
 }
 
 .shade{
