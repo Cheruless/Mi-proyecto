@@ -187,17 +187,12 @@ body #bottom{
     text-align: center;
 }
 
-body #bottom .links{
-    padding: 1rem;
-    text-decoration: none;
-    text-align: center;
-}
 
-body #bottom .links .link{
-    padding: 1rem;
+.link{
+    /* padding: 1rem; */
     border-top: solid 1px#7EEDDE;
     border-bottom: solid 1px #7EEDDE;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 body #bottom .logo{
