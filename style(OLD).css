@@ -1,3 +1,7 @@
+/*
+    Antiguo CSS antes de usar SASS
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
@@ -27,7 +31,7 @@ main{
 }
 
 .shade{
-    background-color: rgba(0, 0, 0, 0.095);
+    background-color: rgba(17, 10, 4, 0.25);
 }
 
 .colorTattoo{
