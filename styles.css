@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  color: #FBEDE0;
+}
+
+body {
+  background-image: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
+}
+
+.bg-color {
+  background-color: rgba(17, 10, 4, 0.1254901961);
+}
+
+.navbar-brand {
+  color: #FFBB00 !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  padding: 0 1rem;
+  background-color: rgba(17, 10, 4, 0.1254901961);
+}
+
+.footer {
+  margin-top: auto;
+  bottom: 0;
+}
+
+.shade {
+  background-color: rgba(17, 10, 4, 0.1254901961);
+}
+
+.colorTattoo {
+  font-weight: bolder;
+  color: crimson;
+}
+
+.colorIllus {
+  font-weight: bolder;
+  color: coral;
+}
+
+.colorDesign {
+  font-weight: bolder;
+  color: lightcyan;
+}
+
+.dato {
+  background-color: #181116;
+  color: #FFBB00;
+}
+
+.btn {
+  border: none;
+  background-color: #FFBB00;
+  color: #181116;
+}
+
+.politics {
+  padding: 0 5rem;
+}
+
+.leyes {
+  background-color: rgba(255, 255, 255, 0.25);
+  margin: 1rem 0rem;
+  padding: 1rem 5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
