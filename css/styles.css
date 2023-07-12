@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar-brand {
+  color: #FFBB00 !important;
+}
+
+.text {
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.img-indx {
+  border: solid 0.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+
+.color--tattoo {
+  font-weight: bolder;
+  color: crimson;
+}
+
+.color--illus {
+  font-weight: bolder;
+  color: coral;
+}
+
+.color--design {
+  font-weight: bolder;
+  color: lightcyan;
+}
+
+.dato {
+  background-color: #150E13 !important;
+  color: #FFBB00 !important;
+}
+
+.btn {
+  border: none;
+  background-color: #FFBB00 !important;
+  color: #150E13 !important;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: #FBEDE0;
+}
+
+body {
+  background-color: #150E13;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.politics {
+  padding: 0 5rem;
+}
+
+.leyes {
+  background-color: rgba(255, 255, 255, 0.25);
+  margin: 1rem 0rem;
+  padding: 1rem 5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

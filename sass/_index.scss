@@ -1,0 +1,24 @@
+.text{
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.img-indx{
+  border: solid 0.5rem rgba($color: #000000, $alpha: 0.3);
+  border-radius: 1rem;
+}
+
+$carrouselTag: (
+  tattoo: crimson,
+  illus: coral,
+  design: lightcyan
+);
+
+@each $indicator, $color in $carrouselTag {
+  .color--#{$indicator} {
+    font-weight: bolder;
+    color: $color;
+  }
+}
