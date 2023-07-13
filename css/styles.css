@@ -41,9 +41,29 @@
 }
 
 .btn {
-  border: none;
-  background-color: #FFBB00 !important;
-  color: #150E13 !important;
+  transition: 300ms;
+  border-color: #150E13;
+  background-color: #FFBB00;
+  color: #150E13;
+}
+
+.btn:hover {
+  transition: 300ms;
+  border-color: #FFBB00;
+  background-color: #150E13;
+  color: #FFBB00;
+}
+
+.btn:active {
+  transition: 150ms;
+  border-color: #FFBB00;
+  background-color: #150E13;
+  color: #FFBB00;
+  transform: scale(1.03);
+}
+
+.form-check-label {
+  color: #FFBB00;
 }
 
 .bg-about {
@@ -65,6 +85,16 @@
   background-color: rgba(255, 187, 0, 0.1);
 }
 
+@media (max-width: 575px) {
+  .bg-services:hover {
+    transition: 500ms;
+    transform: scale(1.01);
+    background-color: rgba(255, 187, 0, 0.1);
+  }
+  .card {
+    margin: 3rem 0;
+  }
+}
 .textPortfolio {
   padding-top: 1rem;
   font-size: 1.2rem;

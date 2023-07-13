@@ -16,3 +16,15 @@ $bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27
   transform: scale(1.07);
   background-color: rgba($color: $color-fontSecundary, $alpha: 0.1);
 }
+
+@media (max-width: 575px) {
+  .bg-services:hover{
+    transition: 500ms;
+    transform: scale(1.01);
+    background-color: rgba($color: $color-fontSecundary, $alpha: 0.1);
+  }
+
+  .card{
+    margin: 3rem 0;
+  }
+}

@@ -10,8 +10,28 @@ $bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27
   color: $color-fontSecundary !important;
 }
 
-.btn {
-  border: none;
-  background-color: $color-fontSecundary !important;
-  color: $color-bgPrimary !important;
+.btn{
+  transition: 300ms;
+  border-color: $color-bgPrimary;
+  background-color: $color-fontSecundary;
+  color: $color-bgPrimary;
+}
+
+.btn:hover{
+    transition: 300ms;
+    border-color: $color-fontSecundary;
+    background-color: $color-bgPrimary;
+    color: $color-fontSecundary;
+}
+
+.btn:active{
+  transition: 150ms;
+  border-color: $color-fontSecundary;
+  background-color: $color-bgPrimary;
+  color: $color-fontSecundary;
+  transform: scale(1.03);
+}
+
+.form-check-label{
+  color: $color-fontSecundary;
 }
