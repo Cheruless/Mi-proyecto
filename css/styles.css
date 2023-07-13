@@ -153,6 +153,18 @@
   background: #0D0D0D;
 }
 
+footer {
+  margin: 1rem;
+  background-color: rgba(21, 14, 19, 0.4);
+}
+
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0);
+}
+.list-group-item .nav-link {
+  color: #FFBB00;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   color: #FBEDE0;
