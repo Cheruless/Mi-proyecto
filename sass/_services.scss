@@ -6,10 +6,13 @@ $color-fontSecundary: #FFBB00;
 $bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
 
 
-.bg-about{
-  background-color: $color-bgPrimary;
+.bg-services{
+  transition: 300ms;
+  background-color: rgba($color: #000000, $alpha: 0.3);
 }
 
-.destacado{
-  font-weight: 600;
+.bg-services:hover{
+  transition: 500ms;
+  transform: scale(1.07);
+  background-color: rgba($color: $color-fontSecundary, $alpha: 0.1);
 }

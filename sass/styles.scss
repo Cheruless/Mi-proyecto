@@ -2,6 +2,8 @@
 @use 'index';
 @use 'contact';
 @use 'about';
+@use 'services';
+@use 'portfolio';
 
 $color-bgPrimary:#150E13;
 $color-bgSecundary: #0F0B0E;
@@ -23,10 +25,6 @@ body {
   background-color: $color-bgPrimary;
 }
 
-
-h2 {
-  text-align: center;
-}
 
 main {
   margin: 0;

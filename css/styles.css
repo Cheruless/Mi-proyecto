@@ -3,7 +3,7 @@
   color: #FFBB00 !important;
 }
 
-.text {
+.textIndx {
   padding-top: 1rem;
   font-size: 2rem;
   font-weight: 600;
@@ -46,12 +46,29 @@
   color: #150E13 !important;
 }
 
-.bg-card {
-  background-image: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
+.bg-about {
+  background-color: #150E13;
 }
 
 .destacado {
   font-weight: 600;
+}
+
+.bg-services {
+  transition: 300ms;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-services:hover {
+  transition: 500ms;
+  transform: scale(1.07);
+  background-color: rgba(255, 187, 0, 0.1);
+}
+
+.textPortfolio {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 * {
@@ -61,10 +78,6 @@
 
 body {
   background-color: #150E13;
-}
-
-h2 {
-  text-align: center;
 }
 
 main {
