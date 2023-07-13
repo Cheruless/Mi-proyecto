@@ -1,10 +1,4 @@
-$color-bgPrimary:#150E13;
-$color-bgSecundary: #0F0B0E;
-$color-fontPrimary: #FBEDE0;
-$color-shade: #110a0420;
-$color-fontSecundary: #FFBB00;
-$bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
-
+@import 'vars';
 
 .bg-about{
   background-color: rgba($color: $color-bgPrimary, $alpha: 0.1);
@@ -12,4 +6,10 @@ $bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27
 
 .destacado{
   font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  p{
+    font-size: 1.2rem !important;
+  }
 }

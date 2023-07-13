@@ -1,4 +1,4 @@
-$color-fontSecundary: #FFBB00;
+@import 'vars';
 .navbar-brand {
   color: $color-fontSecundary !important;
 }

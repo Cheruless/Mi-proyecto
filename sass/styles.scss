@@ -4,14 +4,7 @@
 @use 'about';
 @use 'services';
 @use 'portfolio';
-@use 'footer';
-
-$color-bgPrimary:#150E13;
-$color-bgSecundary: #0F0B0E;
-$color-fontPrimary: #FBEDE0;
-$color-shade: #110a0420;
-$color-fontSecundary: #FFBB00;
-$bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
+@import 'vars';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -31,6 +24,17 @@ body {
 main {
   margin: 0;
   padding: 0 1rem;
+}
+
+footer{
+  margin: 1rem;
+  background-color: rgba($color: $color-bgPrimary, $alpha: 0.4);
+  .list-group-item{
+    background-color: rgba($color: #000000, $alpha: 0);
+    .nav-link{
+      color: $color-fontSecundary;
+    }
+  }
 }
 
 .politics {
