@@ -47,7 +47,7 @@
 }
 
 .bg-about {
-  background-color: #150E13;
+  background-color: rgba(21, 14, 19, 0.1);
 }
 
 .destacado {
@@ -71,6 +71,58 @@
   line-height: 2rem;
 }
 
+.portBox {
+  border: solid 1px red;
+}
+
+.planeta--paleta {
+  min-height: 42px;
+}
+
+.planeta--paleta-1 {
+  background: #7404BF;
+}
+
+.planeta--paleta-2 {
+  background: #7A5FD9;
+}
+
+.planeta--paleta-3 {
+  background: #9794F2;
+}
+
+.planeta--paleta-4 {
+  background: #A0B3D9;
+}
+
+.planeta--paleta-5 {
+  background: #D9BF8F;
+}
+
+.luna--paleta {
+  min-height: 50px;
+}
+
+.luna--paleta-1 {
+  background: #EF49F2;
+}
+
+.luna--paleta-2 {
+  background: #6204BF;
+}
+
+.luna--paleta-3 {
+  background: #570FF2;
+}
+
+.luna--paleta-4 {
+  background: #0D0259;
+}
+
+.luna--paleta-5 {
+  background: #0D0D0D;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   color: #FBEDE0;
@@ -78,6 +130,7 @@
 
 body {
   background-color: #150E13;
+  background-image: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
 }
 
 main {

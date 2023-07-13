@@ -1,5 +1,63 @@
-.textPortfolio{
+.textPortfolio {
   padding-top: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+.portBox {
+  border: solid 1px red;
+}
+
+$design: (
+  planeta: 42px,
+  luna: 50px);
+
+$paleta-planeta: (
+  pal1: #7404BF,
+  pal2: #7A5FD9,
+  pal3: #9794F2,
+  pal4: #A0B3D9,
+  pal5: #D9BF8F);
+
+$paleta-luna: (
+  pal1: #EF49F2,
+  pal2: #6204BF,
+  pal3: #570FF2,
+  pal4: #0D0259,
+  pal5: #0D0D0D);
+
+//
+//   1. Extraemos el primer mapa con los datos planeta y luna con sus respectivos valores
+//   2. luego de crear la clase .planeta-- hacemos un bucle sobre esta
+//   3. Si estamos en planeta o luna se genera su respectiva condicional
+//   4. Creamos clases para mostrar sus paletas de 5 colores indicadas en sus respectivos mapas
+//////////////////////////////////////////////////////////////////////////////////////////////
+//   PD: Intenté hacerlo de esta manera (SIN if's)  pero no me resultó y desconozco el motivo,
+//   dejo el código esperando respuestas uwu:
+
+//   for $i from 1 through 5 {
+//       .#{$indicator}--paleta-#{$i} {
+//         background: map-get($map: $paleta-#{$indicator}, $key: pal#{$i});
+//       }
+//     }
+//
+
+@each $indicator, $size in $design {
+  .#{$indicator}--paleta {
+    min-height: $size;
+  }
+  @if $indicator == 'luna'{
+    @for $i from 1 through 5 {
+      .#{$indicator}--paleta-#{$i} {
+        background: map-get($map: $paleta-luna, $key: pal#{$i});
+      }
+    }
+  }
+  @else if $indicator == 'planeta'{
+    @for $i from 1 through 5 {
+      .#{$indicator}--paleta-#{$i} {
+        background: map-get($map: $paleta-planeta, $key: pal#{$i});
+      }
+    }
+  }
 }

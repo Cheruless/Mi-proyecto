@@ -7,7 +7,7 @@ $bgimg-gradient: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27
 
 
 .bg-about{
-  background-color: $color-bgPrimary;
+  background-color: rgba($color: $color-bgPrimary, $alpha: 0.1);
 }
 
 .destacado{
