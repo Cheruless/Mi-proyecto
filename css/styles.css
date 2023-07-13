@@ -46,6 +46,14 @@
   color: #150E13 !important;
 }
 
+.bg-card {
+  background-image: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
+}
+
+.destacado {
+  font-weight: 600;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   color: #FBEDE0;
