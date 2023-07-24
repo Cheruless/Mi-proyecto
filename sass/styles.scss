@@ -27,7 +27,6 @@ main {
 }
 
 footer{
-  margin: 1rem;
   background-color: rgba($color: $color-bgPrimary, $alpha: 0.4);
   .list-group-item{
     background-color: rgba($color: #000000, $alpha: 0);
@@ -37,12 +36,23 @@ footer{
   }
 }
 
-.politics {
-  padding: 0 5rem;
+.iconos{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  position: sticky;
+  padding-bottom: 1rem;
+  width: 2rem;
+  height: auto;
+  bottom: 25%;
+  background-color: $color-bgPrimary;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  z-index: 100;
 }
 
-.leyes {
-  background-color: rgba(255, 255, 255, 0.25);
-  margin: 1rem 0rem;
-  padding: 1rem 5rem;
+.icon{
+  margin-top: 1rem;
+  transform: scale(1.5);
 }

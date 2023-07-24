@@ -1,12 +1,19 @@
+@import 'vars';
+
 .textIndx{
   padding-top: 1rem;
   font-size: 2rem;
   font-weight: 600;
-  
   line-height: 1;
 }
 
-.img-indx{
+.index-container{
+  background-color: $color-bgPrimary;
+  margin: 1rem 0;
+  padding: .5rem;
+}
+
+.index-border{
   border: solid 0.5rem rgba($color: #000000, $alpha: 0.3);
   border-radius: 1rem;
 }
@@ -19,12 +26,26 @@
 $carrouselTag: (
   tattoo: crimson,
   illus: coral,
-  design: lightcyan
+  design: lightcyan,
+  );
+  
+  $indexColors: (
+    tattoo: #BE102A,
+    illus: #FF4F22,
+    design: #B7E6E6,
+    secundary: #ED9121
 );
 
 @each $indicator, $color in $carrouselTag {
   .color--#{$indicator} {
     font-weight: bolder;
-    color: $color;
+    color: $color ;
   }
 }
+
+@each $name, $col in $indexColors{
+  .text-color--#{$name}  {
+    color: $col;
+  }
+}
+

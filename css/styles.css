@@ -10,7 +10,13 @@
   line-height: 1;
 }
 
-.img-indx {
+.index-container {
+  background-color: #150E13;
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.index-border {
   border: solid 0.5rem rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
 }
@@ -33,6 +39,22 @@
 .color--design {
   font-weight: bolder;
   color: lightcyan;
+}
+
+.text-color--tattoo {
+  color: #BE102A;
+}
+
+.text-color--illus {
+  color: #FF4F22;
+}
+
+.text-color--design {
+  color: #B7E6E6;
+}
+
+.text-color--secundary {
+  color: #ED9121;
 }
 
 .dato {
@@ -174,7 +196,6 @@ main {
 }
 
 footer {
-  margin: 1rem;
   background-color: rgba(21, 14, 19, 0.4);
 }
 footer .list-group-item {
@@ -184,14 +205,25 @@ footer .list-group-item .nav-link {
   color: #FFBB00;
 }
 
-.politics {
-  padding: 0 5rem;
+.iconos {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  position: sticky;
+  padding-bottom: 1rem;
+  width: 2rem;
+  height: auto;
+  bottom: 25%;
+  background-color: #150E13;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  z-index: 100;
 }
 
-.leyes {
-  background-color: rgba(255, 255, 255, 0.25);
-  margin: 1rem 0rem;
-  padding: 1rem 5rem;
+.icon {
+  margin-top: 1rem;
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=styles.css.map */
