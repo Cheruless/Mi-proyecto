@@ -16,6 +16,7 @@
 
 body {
   // background-image:$bgimg-gradient;
+  padding-top: 126px;
   background-color: $color-bgPrimary;
   background-image: $bgimg-gradient;
 }
@@ -36,6 +37,18 @@ footer{
   }
 }
 
+.bg-color{
+  background-color: rgba($color: $color-bgSecundary, $alpha: 1.0) !important;
+}
+
+.navbar-toggler{
+  border-color: rgba($color: #000000, $alpha: 0) !important;
+}
+
+.nav-link{
+  color: #ED9121;
+}
+
 .iconos{
   display: flex;
   flex-direction: column-reverse;
@@ -45,7 +58,7 @@ footer{
   width: 2rem;
   height: auto;
   bottom: 25%;
-  background-color: $color-bgPrimary;
+  background-color: rgba($color: $color-bgPrimary, $alpha: .7);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   text-align: center;

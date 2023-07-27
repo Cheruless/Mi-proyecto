@@ -186,6 +186,7 @@
 }
 
 body {
+  padding-top: 126px;
   background-color: #150E13;
   background-image: radial-gradient(circle, #3a1e28, #351c26, #301b24, #2c1921, #27171f, #23161d, #20141a, #1c1318, #191115, #150f13, #110c0f, #0c090b);
 }
@@ -205,6 +206,18 @@ footer .list-group-item .nav-link {
   color: #FFBB00;
 }
 
+.bg-color {
+  background-color: #0f0b0e !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.nav-link {
+  color: #ED9121;
+}
+
 .iconos {
   display: flex;
   flex-direction: column-reverse;
@@ -214,7 +227,7 @@ footer .list-group-item .nav-link {
   width: 2rem;
   height: auto;
   bottom: 25%;
-  background-color: #150E13;
+  background-color: rgba(21, 14, 19, 0.7);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   text-align: center;
