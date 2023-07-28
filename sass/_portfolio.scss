@@ -1,3 +1,6 @@
+@import 'vars';
+
+
 .textPortfolio {
   padding-top: 1rem;
   font-size: 1.2rem;
@@ -5,12 +8,18 @@
 }
 
 .portBox {
-  border: solid 1px red;
+  padding-top: 20px;
 }
+
+$portTitles: (
+  design:  $design,
+  tattoo: $tattoo,
+  illus: $illus);
 
 $design: (
   planeta: 42px,
-  luna: 50px);
+  luna: 50px
+);
 
 $paleta-planeta: (
   pal1: #7404BF,
@@ -25,6 +34,7 @@ $paleta-luna: (
   pal3: #570FF2,
   pal4: #0D0259,
   pal5: #0D0D0D);
+
 
 //
 //   1. Extraemos el primer mapa con los datos planeta y luna con sus respectivos valores
@@ -41,6 +51,15 @@ $paleta-luna: (
 //       }
 //     }
 //
+
+@each $ind, $color in $portTitles{
+  .portTitle--#{$ind}{
+    margin: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid $color;
+    color: $color;
+  }
+};
 
 @each $indicator, $size in $design {
   .#{$indicator}--paleta {

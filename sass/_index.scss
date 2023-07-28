@@ -30,10 +30,10 @@ $carrouselTag: (
   );
   
   $indexColors: (
-    tattoo: #BE102A,
-    illus: #FF4F22,
-    design: #B7E6E6,
-    secundary: #ED9121
+    tattoo: $tattoo,
+    illus: $illus,
+    design: $design,
+    secundary: $secundary
 );
 
 @each $indicator, $color in $carrouselTag {

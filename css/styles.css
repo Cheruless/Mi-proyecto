@@ -62,6 +62,10 @@
   color: #FFBB00 !important;
 }
 
+.form-row {
+  padding-top: 1rem;
+}
+
 .btn {
   transition: 300ms;
   border-color: #150E13;
@@ -129,7 +133,28 @@
 }
 
 .portBox {
-  border: solid 1px red;
+  padding-top: 20px;
+}
+
+.portTitle--design {
+  margin: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #B7E6E6;
+  color: #B7E6E6;
+}
+
+.portTitle--tattoo {
+  margin: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #BE102A;
+  color: #BE102A;
+}
+
+.portTitle--illus {
+  margin: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #FF4F22;
+  color: #FF4F22;
 }
 
 .planeta--paleta {
@@ -216,27 +241,6 @@ footer .list-group-item .nav-link {
 
 .nav-link {
   color: #ED9121;
-}
-
-.iconos {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  position: sticky;
-  padding-bottom: 1rem;
-  width: 2rem;
-  height: auto;
-  bottom: 25%;
-  background-color: rgba(21, 14, 19, 0.7);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  text-align: center;
-  z-index: 100;
-}
-
-.icon {
-  margin-top: 1rem;
-  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -48,24 +48,3 @@ footer{
 .nav-link{
   color: #ED9121;
 }
-
-.iconos{
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  position: sticky;
-  padding-bottom: 1rem;
-  width: 2rem;
-  height: auto;
-  bottom: 25%;
-  background-color: rgba($color: $color-bgPrimary, $alpha: .7);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  text-align: center;
-  z-index: 100;
-}
-
-.icon{
-  margin-top: 1rem;
-  transform: scale(1.5);
-}

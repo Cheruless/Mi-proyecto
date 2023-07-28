@@ -20,6 +20,7 @@
   <!-- CSS propio -->
   <link rel="stylesheet" href="./css/styles.css">
   <title>Constanza's Studio</title>
+  <link rel="icon" href="media/svg/czstudioLogo_icon.svg" type="image/icon type">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
             <a class="nav-link" href="services.html">Servicios<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portafolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contacto</a>
@@ -56,16 +57,19 @@
   <!-- FIN HEADER -->
 
   <main>
+    
+    <h1 class=" text-center">Portafolio</h1>
 
-    <h1 class="text-center">Portfolio</h1>
-    <hr>
-    <div class="container">
-      <div class="row">
+    <section class="container">
+      <div class="col">
+      </div>
+      <h2 class="text-center portTitle--design">Diseños Gráficos</h2>
+      <div class="row portBox">
         <div class="col-6">
           <img src="media/portfolio/design1.jpg" class="rounded float-left img-fluid">
         </div>
         <div class="col-6">
-          <h2>Diseño</h2>
+          <h3>Diseño</h3>
           <p class="text-muted">Trabajo.</p>
           <p class="textPortfolio">
             Paleta de colores:
@@ -79,13 +83,12 @@
           </div>
         </div>
       </div>
-      <br>
-      <div class="row">
+      <div class="row portBox">
         <div class="col-6">
           <img src="media/design1.jpg" class="rounded float-left img-fluid">
         </div>
         <div class="col-6">
-          <h2>Luna Selene Cynthia</h2>
+          <h3>Luna Selene Cynthia</h3>
           <p class="text-muted">Trabajo.</p>
           <p class="textPortfolio">
             Paleta de colores:
@@ -99,10 +102,11 @@
           </div>
         </div>
       </div>
-      <hr class="dropdown-divider">
-      <div class="row">
+
+      <h2 class="text-center portTitle--tattoo">Tatuajes</h2>
+      <div class="row portBox">
         <div class="col-6">
-          <h2>Tatuaje máquina rotativa</h2>
+          <h3>Tatuaje máquina rotativa</h3>
           <p class="textPortfolio">
             Tatuaje para padre. Se buscaba mostrar la ternura y alegría de ser padre y se demuestra en la línea fina del
             trazado.
@@ -112,22 +116,22 @@
           <img src="media/tatuaje2.jpg" class="rounded float-right img-fluid">
         </div>
       </div>
-      <br>
-      <div class="row">
+
+      <div class="row portBox">
         <div class="col-6">
-          <h2>Tatuaje máquina rotativa 2</h5>
-            <p class="textPortfolio">
-              Diseño vibrante y expresivo. Cada línea se trabajó con maestría, dando vida a los rasgos con precisión
-            </p>
+          <h3>Tatuaje máquina rotativa 2</h3>
+          <p class="textPortfolio">
+            Diseño vibrante y expresivo. Cada línea se trabajó con maestría, dando vida a los rasgos con precisión
+          </p>
         </div>
         <div class="col-6">
           <img src="media/tatuaje1.png" class="rounded float-right img-fluid">
         </div>
       </div>
-      <br>
-      <div class="row">
+
+      <div class="row portBox">
         <div class="col-6">
-          <h2>Tatuaje máquina rotativa</h2>
+          <h3>Tatuaje máquina rotativa</h3>
           <p class="textPortfolio">
             Tatuaje para madre. Deseaba un tatuaje que represente el amor que siente hacia su bebé y la alegría de ser
             madre.
@@ -137,13 +141,14 @@
           <img src="media/tatuaje3.jpg" class="rounded float-right img-fluid">
         </div>
       </div>
-      <hr class="dropdown-divider">
-      <div class="row">
+
+      <h2 class="text-center portTitle--illus">Ilustraciones</h2>
+      <div class="row portBox">
         <div class="col-6">
           <img src="media/portfolio/Etiquetado.jpg" class="rounded float-left img-fluid">
         </div>
         <div class="col-6">
-          <h2>Etiquetado GreenPoint</h2>
+          <h3>Etiquetado GreenPoint</h3>
           <p class="text-muted">Proyecto estudiantil grupal.</p>
           <p class="textPortfolio">
             Asignatura: Proyecto Comercial <br>
@@ -154,13 +159,13 @@
           </p>
         </div>
       </div>
-      <br>
-      <div class="row">
+
+      <div class="row portBox">
         <div class="col-6">
           <img src="media/portfolio/portadaRevista.jpg" class="rounded float-left img-fluid">
         </div>
         <div class="col-6">
-          <h2>Portada revista Closɘt</h2>
+          <h3>Portada revista Closɘt</h3>
           <p class="text-muted">Proyecto estudiantil grupal.</p>
           <p class="textPortfolio">
             Asignatura: Proyecto Editorial. <br>
@@ -171,13 +176,13 @@
           </p>
         </div>
       </div>
-      <br>
-      <div class="row">
+
+      <div class="row portBox">
         <div class="col-6">
           <img src="media/portfolio/proyectoEditorial.jpg" class="rounded float-left img-fluid" alt="">
         </div>
         <div class="col-6">
-          <h2>Portada libro 'Del amor y otros demonios'</h2>
+          <h3>Portada libro 'Del amor y otros demonios'</h3>
           <p class="text-muted">Proyecto estudiantil individual.</p>
           <p class="textPortfolio">
             Asignatura: Diseño Editorial. <br>
@@ -188,18 +193,8 @@
           </p>
         </div>
       </div>
-    </div>
-
+    </section>
   </main>
-
-  <div class="iconos">
-    <a href="index.html" class="inicio">
-      <i class="fa-solid fa-house icon" style="color: #FFBB00;"></i>
-    </a>
-    <a href="contact.html" class="contacto">
-      <i class="fa-solid fa-phone icon" style="color: #FFBB00;"></i>
-    </a>
-  </div>
 
   <footer class="container">
     <div class="row">
@@ -219,7 +214,7 @@
             <a class="nav-link" href="services.html">Servicios</a>
           </li>
           <li class="list-group-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portafolio</a>
           </li>
 
           <li class="list-group-item">

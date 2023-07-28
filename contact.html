@@ -21,6 +21,7 @@
   <!-- CSS propio -->
   <link rel="stylesheet" href="./css/styles.css">
   <title>Constanza's Studio</title>
+  <link rel="icon" href="media/svg/czstudioLogo_icon.svg" type="image/icon type">
 </head>
 
 <body>
@@ -45,7 +46,7 @@
             <a class="nav-link" href="services.html">Servicios<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portafolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contacto</a>
@@ -60,46 +61,44 @@
   <main>
 
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <!-- BOLETIN -->
-          <h2>¡Suscribete a mi boletín!</h2>
-          <form>
-            <div class="form-row">
-              <div class="col-md">
-                <label for="nombre">Nombre:</label>
-                <input name="nombre" type="text" class="form-control dato" placeholder="Ingrese nombre">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="col-md-6">
-                <label for="email">E-mail:</label>
-                <input name="email" type="email" class="form-control dato" placeholder="Ingrese e-mail">
-              </div>
-              <div class="col-md">
-                <label for="apellido">Teléfono:</label>
-                <input name="apellido" type="tel" class="form-control dato" placeholder="Ingrese teléfono">
-              </div>
-            </div>
-            <label for="comentario">¿Algún comentario? ¡Compártelo con nosotros!</label>
-            <textarea class="form-control dato" id="comentario"
-              placeholder="Ingrese su consulta, comentario o solicitud" rows="3"></textarea>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="">
-                <label class="form-check-label">
-                  Acepto recibir novedades y ofertas a mi correo
-                </label>
-              </div>
-              <button class="btn" type="submit">Enviar</button>
-          </form>
+      <!-- BOLETIN -->
+      <h2>¡Suscribete a mi boletín!</h2>
+
+      <form>
+        <div class="form-row">
+          <label for="nombre">Nombre:</label>
+          <input name="nombre" type="text" class="form-control dato" placeholder="Ingrese nombre">
         </div>
-        <!-- FIN BOLETIN -->
-      </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label for="email">E-mail:</label>
+            <input name="email" type="email" class="form-control dato" placeholder="Ingrese e-mail">
+          </div>
+          <div class="col-md">
+            <label for="apellido">Teléfono:</label>
+            <input name="apellido" type="tel" class="form-control dato" placeholder="Ingrese teléfono">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="comentario">¿Algún comentario? ¡Compártelo con nosotros!</label>
+          <textarea class="form-control dato" id="comentario" placeholder="Ingrese su consulta, comentario o solicitud"
+            rows="3"></textarea>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+              <label class="form-check-label">
+                Acepto recibir novedades y promociones a mi correo
+              </label>
+            </div>
+            <button class="btn" type="submit">Enviar</button>
+          </div>
+        </div>
+      </form>
     </div>
 
     <div class="container">
       <div class="row">
+
         <div class="col-md">
           <h2>Contacto</h2>
           <ul class="list-group">
@@ -117,8 +116,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-md">
 
+        <div class="col-md">
           <h2>Social Media</h2>
           <ul class="list-group">
             <li>
@@ -131,7 +130,8 @@
             </li>
             <li>
               <i class="fa-brands fa-linkedin fa-lg" style="color: #ffbb00;"></i>
-              <a target="_blank" href="https://www.linkedin.com/in/constanza-biermoritz/">Linkedin: Constanza Biemoritz</a>
+              <a target="_blank" href="https://www.linkedin.com/in/constanza-biermoritz/">Linkedin: Constanza
+                Biemoritz</a>
             </li>
             <li>
               <i class="fa-brands fa-square-twitter fa-lg" style="color: #ffbb00;"></i>
@@ -140,9 +140,7 @@
           </ul>
         </div>
       </div>
-    </div>
 
-    <div class="container">
       <div class="row">
         <h2>Studio</h2>
         <div class="embed-responsive embed-responsive-16by9 ">
@@ -152,8 +150,6 @@
       </div>
     </div>
   </main>
-
-  <hr>
 
   <footer class="container">
     <div class="row">
@@ -173,7 +169,7 @@
             <a class="nav-link" href="services.html">Servicios</a>
           </li>
           <li class="list-group-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portafolio</a>
           </li>
 
           <li class="list-group-item">
