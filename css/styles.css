@@ -222,7 +222,11 @@ main {
 }
 
 footer {
+  padding: 0 4rem;
   background-color: rgba(21, 14, 19, 0.4);
+}
+footer .row {
+  margin: 4rem 0px 0px;
 }
 footer .list-group-item {
   background-color: rgba(0, 0, 0, 0);
